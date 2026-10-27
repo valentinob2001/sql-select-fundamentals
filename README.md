@@ -1,2 +1,4 @@
 # sql-select-fundamentals
-practica m4
+La utilización de SELECT * puede ser problemática principalmente por dos razones. En primer lugar, no es eficiente y afecta el rendimiento del sistema de gestión de base de datos en tanto debe presentar todos los datos almacenados. Por otro lado, puede atentar contra la seguridad del entorno hacer un llamado de toda los datos almacenados, en tanto nos estamos exponiendo a ser hackeados o a una filtración.
+
+A su vez, en relación a la implementación de los alias, podemos decir que son de gran utilidad para presentar reportes o análisis a stakeholders que no dominan lenguaje técnico o el idioma inglés, códigos utilizados para nombrar columnas en bases de datos. Puntualmente, podemos pensar en el caso de la apliación del alias monto_total o monto_final para presentar la columna total_amount al departamento de finanzas de una empresa donde no hay nadie que hable inglés.
